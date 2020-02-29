@@ -1,4 +1,4 @@
-# LottieSharp
+# LottieCore
 
 
 | ![Logo](https://raw.githubusercontent.com/ascora/LottieSharp/master/Images/lottie_sharp-128.png) |.NET Core (WPF) port of Lottie# (https://github.com/ascora/LottieSharp)  |
