@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>SchwiftyFella</Authors>
+    <Description>This is a NET Core conversion of an existing nuget package for NET Framework.</Description>
+    <PackageTags>Lottie wpf net core c#</PackageTags>
+    <PackageProjectUrl>https://github.com/SchwiftyFella/LottieSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/SchwiftyFella/LottieSharp</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="lottie_sharp.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetZip" Version="1.13.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="SharpDX" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct2D1" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Direct3D9" Version="4.2.0" />
+    <PackageReference Include="SharpDX.Mathematics" Version="4.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="lottie_sharp.ico" />
+  </ItemGroup>
+
+</Project>
