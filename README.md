@@ -8,7 +8,7 @@
 
 ```PM> Install-Package LottieCore -Version 1.0.0```
 
-- Install from nuget: [LottieCore](https://www.nuget.org/packages/LottieSharp/);
+- Install from nuget: [LottieCore](https://www.nuget.org/packages/LottieCore/);
 - Import into your xaml the library
 
     xmlns:lottieSharp="clr-namespace:LottieSharp;assembly=LottieSharp"
